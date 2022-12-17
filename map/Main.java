@@ -38,6 +38,42 @@ public class Main {
         System.out.println("size = " + map.size());
         System.out.println();
         
+        
+        System.out.println("putIfAbsent(gobinda)");
+        map.putIfAbsent("gobinda", 5000);
+        System.out.println("map = " + map);
+        System.out.println();
+        
+        
+        System.out.println("putIfAbsent(joy)");
+        map.putIfAbsent("joy", 5000);
+        System.out.println("map = " + map);
+        System.out.println();
+        
+        
+        System.out.println("replace(joy -> 6000)");
+        map.replace("joy", 6000);
+        System.out.println("map = " + map);
+        System.out.println();
+        
+        
+        System.out.println("replace(tushar -> 4000)");
+        map.replace("tushar", 4000);
+        System.out.println("map = " + map);
+        System.out.println();
+        
+        
+        System.out.println("remove(tushar)");
+        map.remove("tushar");
+        System.out.println("map = " + map);
+        System.out.println();
+         
+         
+        System.out.println("remove(shamim)");
+        map.remove("shamim");
+        System.out.println("map = " + map);
+        System.out.println();
+        
     }
     
 }
