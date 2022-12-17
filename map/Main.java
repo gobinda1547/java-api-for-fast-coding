@@ -74,6 +74,18 @@ public class Main {
         System.out.println("map = " + map);
         System.out.println();
         
+
+		System.out.println("computeIfAbsent");
+        map.computeIfAbsent("raju", (k) -> 40);
+		System.out.println("map = " + map);
+        System.out.println();
+
+
+		System.out.println("computeIfPresent");
+		map.computeIfPresent("raju", (k, v) -> v + 10);
+		System.out.println("map = " + map);
+        System.out.println();
+        
     }
     
 }
